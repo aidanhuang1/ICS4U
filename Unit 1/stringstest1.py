@@ -1,0 +1,2 @@
+s = "watermelon"
+print(s[: :])
