@@ -47,3 +47,8 @@ for degree in range(30, 360, 30):
    print(f'{r:>6} units {degree:>7} degree {arc:>10.2f} units')
 
 # print(0/30)
+
+te = "abcdef"
+print(te[2:4])
+
+print(pow(2,3))
