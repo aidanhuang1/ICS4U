@@ -40,12 +40,17 @@ file_out_txt = open('ultimatefilereview.txt', 'w')  # .txt file
 file_out_csv = open('ultimatefilereview.csv', 'w')  # .csv file
 
 # using .txt writer
-file_out_txt.write(f'writing\n')
+writing = "test"
+file_out_txt.write(writing)
+file_out_txt.write(writing)
+
+file_out_txt.write(writing)
+
 
 # using .csv writer
-writer = csv.writer(file_out_csv)
-writinglist = ["hey", "hello", "there"]
-writer.writerow(writinglist)  # .csv writes lists or tuples
+# writer = csv.writer(file_out_csv)
+# writinglist = ["hey", "hello", "there"]
+# writer.writerow(writinglist)  # .csv writes lists or tuples
 
 file_out_csv.close()
 file_out_txt.close()
